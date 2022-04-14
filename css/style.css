@@ -1,0 +1,38 @@
+#navbar {
+    width: 300px;
+    display: block;
+    position: fixed;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: -10px;
+    line-height: 20px;
+    border-right: solid 2px black;
+}
+#sections {
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 350px;
+    padding-left: 10px;
+
+}
+#main-doc {
+    position:relative
+}
+.nav-list {
+    list-style: none;
+    /* border: solid 1px black; */
+    
+}
+
+.nav-link {
+    display: list-item;
+    margin-left: -50px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+    border-top: solid 2px black;
+    width: 100%;
+    
+}
