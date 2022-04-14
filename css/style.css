@@ -8,6 +8,11 @@
     line-height: 20px;
     border-right: solid 2px rgba(0, 22, 22, 0.4);
 }
+@media only screen and (max-width: 768px) {
+    #navbar {
+        width: 100%;
+    }
+}
 #navbar li {
     color: #4d4e53;
     border-top: 1px solid;
@@ -30,6 +35,11 @@
     padding-left: 10px;
 
 }
+@media only screen and (max-width: 768px) {
+    #sections {
+        width: 100%;
+    }
+}
 
 .nav-link {
     display: list-item;
@@ -49,3 +59,4 @@
     margin-left: 20px;
     margin-right: 80px;
 }
+
