@@ -9,7 +9,7 @@
     }   
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (max-width: 900px) {
     #main-doc {
         background-color: #EEEEEE;
     }   
