@@ -1,38 +1,51 @@
 #navbar {
+    top: 0;
     width: 300px;
-    display: block;
+    display: inline-block;
+    padding-left: 10px;
     position: fixed;
     height: 100%;
-    padding-left: 10px;
-    padding-right: -10px;
     line-height: 20px;
-    border-right: solid 2px black;
+    border-right: solid 2px rgba(0, 22, 22, 0.4);
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+#navbar ul {
+    height: 90%;
+    position: relative;
+    margin-left: -50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 #sections {
-    display: block;
+    display: inline-block;
     position: absolute;
     margin-top: 0;
     margin-left: 350px;
     padding-left: 10px;
 
 }
-#main-doc {
-    position:relative
-}
-.nav-list {
-    list-style: none;
-    /* border: solid 1px black; */
-    
-}
 
 .nav-link {
     display: list-item;
-    margin-left: -50px;
+    /* margin-left: -50px; */
     padding: 10px;
     text-decoration: none;
     color: black;
     line-height: 35px;
-    border-top: solid 2px black;
+    /* border-top: solid 1px black; */
     width: 100%;
     
+}
+.code-section {
+    background: #bebfc7;
+    display: block;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 80px;
 }
